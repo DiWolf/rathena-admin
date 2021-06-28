@@ -1,0 +1,40 @@
+[
+  {
+    "groupname": "menu principal",
+    "id": 1,
+    "uuid": "433b8a76-88c5-11ea-bc55-0242ac1564787485730003",
+    "children": [
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Inicio ",
+        "icon": "fa fa-home",
+        "to": "/",
+        "children": false
+      },
+
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Menú Base ",
+        "icon": "fa fa-home",
+        "to": "/base",
+        "children": false
+      },
+
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Configuración ",
+        "icon": "fa fa-gears",
+        "to": "#nav-parent",
+        "children": [
+          {
+            "uuid": "ad5e264e-8937-1158ea-bc55-0242ac130003",
+            "name": "Usuarios y permisos",
+            "icon": false,
+            "to": "/users",
+            "children": false
+          }
+        ]
+      }
+    ]
+  }
+]
